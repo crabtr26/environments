@@ -1,0 +1,39 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - nodejs
+  - pip
+  - pygraphviz
+  - PyYAML
+  - scipy
+  - pandas
+  - numpy
+  - networkx
+  - scikit-learn
+  - scikit-image
+  - voila
+  - ipyvuetify
+  - voila-vuetify
+  - pyarrow
+  - pyspark
+  - dask
+  - dask-labextension
+  - requests
+  - beautifulsoup4
+  - matplotlib
+  - plotly
+  - dash
+  - jupyter-dash
+  - jupyterlab-git
+  - ipykernel
+  - nb_conda_kernels
+  - jupyterlab
+  - black
+  - pytest
+  - pylint
+  - pip:
+    - pipdeptree
+    - nb-black
+    - pre-commit
